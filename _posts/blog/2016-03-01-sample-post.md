@@ -243,8 +243,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 {% highlight html %}
 <figure class="half">
-	<img src="{{ site.url }}/images/image-filename-1.jpg">
-	<img src="{{ site.url }}/images/image-filename-2.jpg">
+	<img src="{{ site.github.url }}/images/image-filename-1.jpg">
+	<img src="{{ site.github.url }}/images/image-filename-2.jpg">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 {% endhighlight %}
@@ -263,9 +263,9 @@ Apply the `third` class like so to display three images side by side that share 
 
 {% highlight html %}
 <figure class="third">
-	<img src="{{ site.url }}/images/image-filename-1.jpg">
-	<img src="{{ site.url }}/images/image-filename-2.jpg">
-	<img src="{{ site.url }}/images/image-filename-3.jpg">
+	<img src="{{ site.github.url }}/images/image-filename-1.jpg">
+	<img src="{{ site.github.url }}/images/image-filename-2.jpg">
+	<img src="{{ site.github.url }}/images/image-filename-3.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 {% endhighlight %}

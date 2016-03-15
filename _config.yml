@@ -5,7 +5,6 @@ description: "Builtit open source projects, presentations and developer blog"
 logo: 120x120.gif
 teaser: 400x250.gif
 locale: en
-url: http://127.0.0.1:4000
 logo: buildit.png
 
 # Jekyll configuration

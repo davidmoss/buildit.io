@@ -11,20 +11,20 @@
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url }}">
 
-    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+    <link href="{{ site.github.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
 
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
+      <script src="{{ site.github.url }}/js/vendor/html5shiv.min.js"></script>
+      <script src="{{ site.github.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 
   </head>
@@ -34,11 +34,11 @@
     {% include navigation-sliding.html %}
 
     {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
+    <div class="page-lead" style="background-image:url({{ site.github.url }}/images/{{ page.image.feature }})">
       <div class="wrap page-lead-content">
         <h1>Buildit</h1>
         <h2>Jump start your Digital Transformation.</h2>
-        <a href="{{ site.url }}/about/" class="btn-inverse">Start Using Buildit</a> &nbsp; or &nbsp; <a href="{{ site.url }}/projects/" class="btn-inverse">View our Work</a>
+        <a href="{{ site.github.url }}/about/" class="btn-inverse">Start Using Buildit</a> &nbsp; or &nbsp; <a href="{{ site.github.url }}/projects/" class="btn-inverse">View our Work</a>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
@@ -63,8 +63,8 @@
       {% include footer.html %}
     </div>
 
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{{ site.url }}/js/main.js"></script>
+    <script src="{{ site.github.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.github.url }}/js/main.js"></script>
 
   </body>
 
