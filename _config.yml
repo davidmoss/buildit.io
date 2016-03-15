@@ -1,11 +1,12 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: Buildit
+description: "Builtit open source projects, presentations and developer blog"
+logo: 120x120.gif
+teaser: 400x250.gif
 locale: en
-url:
+url: http://127.0.0.1:4000
+logo: buildit.png
 
 # Jekyll configuration
 
@@ -37,15 +38,13 @@ titlecase: true
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
+  name: David Moss
+  email: david.moss@wipro.com
+  twitter: mossy
+  avatar: bio-photo.jpg
   google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+    plus: damoss07
+  disqus-shortname: builditwd
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

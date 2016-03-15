@@ -23,7 +23,6 @@
 	@include media($large) {
 		@include span-columns(4);
 	}
-	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
 	color: $black;
@@ -32,6 +31,10 @@
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+
+	img {
+		height: 45px;
+	}
 }
 
 
@@ -296,6 +299,10 @@
 		}
 	}
 }
+// post-index
+.post-year {
+	border-bottom: darkgrey 1px solid;
+}
 
 /*
    Page footer
@@ -349,3 +356,8 @@
 		}
 	}
 }
+
+/*
+	Author sidebar
+	========================================================================== */
+

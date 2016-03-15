@@ -1,10 +1,10 @@
 {
-  "name": "skinny-bones-jekyll",
+  "name": "buildit.github.io",
   "version": "1.0.0",
   "private": true,
-  "description": "A Jekyll starter site",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mademistakes.com/",
+  "description": "Buildit Development Space",
+  "author": "David Moss <david.moss@wipro.com>",
+  "homepage": "http://wiprodigital.com/",
   "license": "The MIT License (MIT)",
   "devDependencies": {
     "grunt": "~0.4.2",

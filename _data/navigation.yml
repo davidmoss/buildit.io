@@ -1,6 +1,21 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Blog
+  url: /blog/
+  excerpt: "Our Buildit blog."
+  image: blog.jpg
+
+- title: Projects
+  url: /projects/
+  excerpt: "Buildit open source projects."
+  image: projects.jpg
+
+- title: Media
+  url: /media/
+  excerpt: "Buildit media posts showcasing our work."
+  image: media.jpg
+
+- title: About
+  url: /about/
+  excerpt: "Who are Buildit?"
+  image: about.jpg

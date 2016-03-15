@@ -1,0 +1,7 @@
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+  <a href="{{ project.url }}" title="{{ project.name }}" class="post-teaser">{% if project.image %}<img src="{{ site.url }}/images/{{ project.image }}" alt="teaser" itemprop="image">
+    {% else %}<img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">{% endif %}</a>
+  {% if project.date %}<p class="entry-date date published"><time datetime="{{ project.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ project.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+  <h2 class="post-title" itemprop="name"><a href="{{ project.url }}">{{ project.title }}</a></h2>
+  <p class="post-excerpt" itemprop="description">{{ project.excerpt | strip_html | truncate: 160 }}</p>
+</article><!-- /.tile -->
