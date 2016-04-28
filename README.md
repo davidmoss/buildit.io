@@ -48,7 +48,13 @@ Add your project to the `_data/projects.yaml` file to add your repository to the
 
 ---
 
-## Adding New Content with Octopress
+## Using (Prose)[http://prose.io/]
+
+Prose allows you to create and edit github pages in the browser.
+
+Authorise access to use Prose and then follow the instructions to edit files and it will help you to write the Markdown files in a nice pretty editor.
+
+## Adding New Content with [Octopress](http://octopress.org/)
 
 While completely optional, also included is Octopress and some starter templates to automate the creation of new posts and pages.
 
