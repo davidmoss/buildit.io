@@ -48,7 +48,7 @@ Add your project to the `_data/projects.yaml` file to add your repository to the
 
 ---
 
-## Using (Prose)[http://prose.io/]
+## Using [Prose]([http://prose.io/)
 
 Prose allows you to create and edit github pages in the browser.
 
